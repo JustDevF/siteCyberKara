@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KARA</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="../img/logo_kara.png" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">Accueil</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">Internet</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">services</a>
+              </li>
+              <li>
+                <a href="#tours" class="scroll-link">Matériel</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>KARA CYBER-NET</h1>
+          <p>
+            KARA, société à responsabilité limitée est active depuis 5 ans. Installée à SAINTE-GENEVIEVE-DES-BOIS (91700), elle est spécialisée dans le secteur d'activité du commerce de gros (commerce interentreprises) non spécialisé. 
+          </p>
+          <a href="#tours" class="scroll-link btn btn-white">NOUS CONTACTER</a>
+        </div>
+      </div>
+    </header>
+    <!-- Internet -->
+    <section id="about" class="section">
+      <div class="title">
+        <h2>Internet <span>5G</span></h2>
+        <hr>
+
+        <div class="slider-container">
+          <div class="slide">
+            <img src="./img-1.jpeg" class="slide-img" alt="" />
+            
+          </div>
+          <div class="slide">
+            <img src="./img-2.jpeg" class="slide-img" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img-3.jpeg" class="slide-img" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./img-4.jpeg" class="slide-img" alt="" />
+          </div>
+        </div>
+        <div class="btn-container">
+          <button type="button" class="prevBtn">
+            prev
+          </button>
+          <button type="button" class="nextBtn">
+            next
+          </button>
+        </div>
+        
+        <br/>
+        <br/>
+        
+      </div>
+    </section>
+    <!-- services -->
+    <section id="services" class="section">
+      <div class="title">
+        <h2>Nos <span>Services</span></h2>
+
+        <div class="container-card">
+          <!--Card 1 -->
+          <div class="card">
+              <div class="content">
+                  <h2>Nathan Drake</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellendus facere, nesciunt, sapiente hic </p>
+                 <a href="#">Read More</a>
+              </div>
+              <img src="../img/imprimante.png" alt="nathan_drake">
+          </div>
+          <!--Fin card-->
+
+          <!--Card 2 -->
+          <div class="card">
+            <div class="content">
+                <h2>Walking dead</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellendus facere, nesciunt, sapiente hic</p>
+               <a href="#">Read More</a>
+              </div>
+              <img src="../img/internet.png" alt="walkingdead">
+        </div>
+        <!--Fin card-->
+
+      </div>
+      </div>
+    </section>
+    <!-- Matériel -->
+    <section id="tours" class="section">
+      <div class="title">
+        <h2>Matériel <span>Informatique</span></h2>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; backroads travel tours company
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>

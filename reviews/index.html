@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <!--font awesome-->
+    <link href="./fontawesome-free-5.15.3-web/css/all.min.css" rel="stylesheet">
+
+    <!--Style-->
+    <link href="styles.css" type="text/css" rel="stylesheet">
+
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  
+</head>
+  <body>
+      <main>
+          <section class="container">
+              <!-- titel-->
+              <div class="title">
+                  <h2>Notre Reviews</h2>
+                  <div class="underline"></div>
+              </div>
+              <!--Première étape : créer la structure de la présentation-->
+              <!--Deuxième étape : rajouter de l'interaction sur javascript-->
+              <!--review-->
+              <article class="review">
+                  <div class="img-container">
+                      <img class="person-img" id="person-img" src="./img/img1.jpg" id='#person-img' alt="ecran1" width="150px">
+                  </div>
+                  <h4 id="author">Justin Katasi</h4>
+                  <p id="job">Developpeur</p>
+                  <p id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nulla sequi labore reprehenderit voluptas eos sed, illum maxime omnis, ut modi repudiandae commodi maiores nesciunt atque hic tempora accusantium distinctio.</p>
+                  <!--prev next buttons -->
+                  <div class="button-container">
+                  </div>
+                  <!--prev next buttons-->
+                  <div class="button-container">
+                      <button class="prev-btn">
+                          <i class="fas fa-chevron-left"></i>
+                      </button>
+                      <button class="next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                  </div>
+                 <!--random  buttons-->
+                 <button class="random-btn">Suprise Me</button>
+              </article>
+          </section>
+      </main>
+    <!--javascrip-->
+    <script src="app.js"></script>
+  </body>
+</html>
